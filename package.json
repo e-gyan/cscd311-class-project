@@ -1,0 +1,38 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "This is a hall residential app for students to make room booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-gyan/cscd311-class-project.git"
+  },
+  "keywords": [
+    "residential-registration-app"
+  ],
+  "author": "egyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-gyan/cscd311-class-project/issues"
+  },
+  "homepage": "https://github.com/e-gyan/cscd311-class-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.3.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.3",
+    "nodemailer": "^6.3.1",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
